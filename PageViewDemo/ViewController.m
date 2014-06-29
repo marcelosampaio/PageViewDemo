@@ -122,8 +122,7 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([segue.identifier isEqualToString:@"showMain"]) {
-        //     // Hide navigation bar
-        NSLog(@"here!!!!!!");
+        // Hide navigation bar
         [self.navigationController.navigationBar setHidden:NO];
         [segue.destinationViewController setParameter:@"Overrided by me!!!!!!"];
 
