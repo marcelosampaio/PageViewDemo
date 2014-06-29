@@ -70,12 +70,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lfr-yc-jIU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="927" y="-20"/>
+            <point key="canvasLocation" x="923" y="-203"/>
         </scene>
-        <!--View Controller - Main Menu-->
+        <!--Main View Controller - Main Menu-->
         <scene sceneID="HBJ-02-qak">
             <objects>
-                <viewController id="HII-VF-fka" sceneMemberID="viewController">
+                <viewController id="HII-VF-fka" customClass="MainViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bbV-sY-AxW"/>
                         <viewControllerLayoutGuide type="bottom" id="wk2-Ym-rag"/>
@@ -84,7 +84,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Main View Controller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8E-fV-PYR">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8E-fV-PYR">
                                 <rect key="frame" x="76" y="273" width="169" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -96,10 +96,13 @@
                     </view>
                     <navigationItem key="navigationItem" title="Main Menu" id="Zg9-fL-nu2"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="message" destination="e8E-fV-PYR" id="X88-8h-Bgw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fd8-1Q-OOf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="927" y="690"/>
+            <point key="canvasLocation" x="923" y="507"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="CdP-mB-dRg">
@@ -107,7 +110,7 @@
                 <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="c5l-sO-hbt" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2ck-gc-UUI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="401" y="-687"/>
+            <point key="canvasLocation" x="366" y="-525"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kTW-hF-fN9">

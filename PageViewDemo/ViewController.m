@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MainViewController.h"
 
 @interface ViewController ()
 
@@ -43,8 +44,6 @@
         [self.view addSubview:_pageViewController.view];
         [self.pageViewController didMoveToParentViewController:self];
 
- 
-
 }
 -(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
@@ -52,6 +51,7 @@
     [self.navigationController.navigationBar setHidden:YES];
 
 }
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -84,13 +84,11 @@
 
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerBeforeViewController:(UIViewController *)viewController
 {
-    NSLog(@"to the left");
     NSUInteger index = ((PageContentViewController*) viewController).pageIndex;
     
     if ((index == 0) || (index == NSNotFound)) {
         return nil;
     }
-    NSLog(@"to the left");
     index--;
     return [self viewControllerAtIndex:index];
 }
@@ -103,7 +101,6 @@
     if (index == NSNotFound) {
         return nil;
     }
-    NSLog(@"to the right");
     index++;
     if (index == [self.pageTitles count]) {
         return nil;
@@ -113,13 +110,11 @@
 
 - (NSInteger)presentationCountForPageViewController:(UIPageViewController *)pageViewController
 {
-    NSLog(@"presentationCountForPageViewController %d",[self.pageTitles count]);
     return [self.pageTitles count];
 }
 
 - (NSInteger)presentationIndexForPageViewController:(UIPageViewController *)pageViewController
 {
-    NSLog(@"presentationIndexForPageViewController");
     return 0;
 }
 
@@ -128,7 +123,10 @@
 {
     if ([segue.identifier isEqualToString:@"showMain"]) {
         //     // Hide navigation bar
+        NSLog(@"here!!!!!!");
         [self.navigationController.navigationBar setHidden:NO];
+        [segue.destinationViewController setParameter:@"Overrided by me!!!!!!"];
+
 
     }
 }

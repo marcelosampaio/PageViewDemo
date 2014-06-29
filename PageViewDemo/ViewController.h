@@ -16,6 +16,8 @@
 @property (strong, nonatomic) NSArray *pageTitles;
 @property (strong, nonatomic) NSArray *pageImages;
 
+
+
 @property BOOL goToMain;
 
 @end
