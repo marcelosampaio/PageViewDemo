@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  PageViewDemo
 //
-//  Created by Marcelo Sampaio on 6/29/14.
-//  Copyright (c) 2014 Marcelo Sampaio. All rights reserved.
+//  Created by Simon on 24/11/13.
+//  Copyright (c) 2013 Appcoda. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -13,6 +13,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    UIPageControl *pageControl = [UIPageControl appearance];
+    pageControl.pageIndicatorTintColor = [UIColor lightGrayColor];
+    pageControl.currentPageIndicatorTintColor = [UIColor blackColor];
+    pageControl.backgroundColor = [UIColor whiteColor];
+    
     return YES;
 }
 							

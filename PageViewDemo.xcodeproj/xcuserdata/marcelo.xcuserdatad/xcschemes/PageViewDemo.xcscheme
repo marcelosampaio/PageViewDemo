@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9C92463219603DB900505B44"
+               BlueprintIdentifier = "F42D5ABE1841F8A500F8636D"
                BuildableName = "PageViewDemo.app"
                BlueprintName = "PageViewDemo"
                ReferencedContainer = "container:PageViewDemo.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9C92465319603DB900505B44"
+               BlueprintIdentifier = "F42D5ADF1841F8A500F8636D"
                BuildableName = "PageViewDemoTests.xctest"
                BlueprintName = "PageViewDemoTests"
                ReferencedContainer = "container:PageViewDemo.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9C92463219603DB900505B44"
+            BlueprintIdentifier = "F42D5ABE1841F8A500F8636D"
             BuildableName = "PageViewDemo.app"
             BlueprintName = "PageViewDemo"
             ReferencedContainer = "container:PageViewDemo.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9C92463219603DB900505B44"
+            BlueprintIdentifier = "F42D5ABE1841F8A500F8636D"
             BuildableName = "PageViewDemo.app"
             BlueprintName = "PageViewDemo"
             ReferencedContainer = "container:PageViewDemo.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9C92463219603DB900505B44"
+            BlueprintIdentifier = "F42D5ABE1841F8A500F8636D"
             BuildableName = "PageViewDemo.app"
             BlueprintName = "PageViewDemo"
             ReferencedContainer = "container:PageViewDemo.xcodeproj">
